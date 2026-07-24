@@ -3,75 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AWS CI/CD Static Website</title>
+    <title>AWS CI/CD Project</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-    <div class="container">
-        <h1>AWS Static Website Hosting</h1>
-        <p>Automated Deployment using GitHub Actions & Amazon S3</p>
-    </div>
-</header>
+<div class="container">
 
-<section class="hero">
-    <div class="container">
-        <h2>Deploy Faster with CI/CD</h2>
-        <p>
-            This website is automatically deployed to Amazon S3 whenever changes
-            are pushed to the GitHub repository using GitHub Actions.
-        </p>
+    <h1>🚀 AWS Static Website Deployment</h1>
 
-        <a href="https://aws.amazon.com/" target="_blank" class="btn">
-            Explore AWS
-        </a>
-    </div>
-</section>
-
-<section class="features">
+    <p class="subtitle">
+        Continuous Integration & Continuous Deployment using GitHub Actions
+    </p>
 
     <div class="card">
-        <h3>Amazon EC2</h3>
+        <h2>Project Overview</h2>
+
         <p>
-            Used Amazon Linux EC2 instance to create and manage the website files
-            using AWS CLI.
+            This website is automatically deployed to Amazon S3 whenever
+            new changes are pushed to the GitHub repository.
         </p>
     </div>
 
-    <div class="card">
-        <h3>Amazon S3</h3>
-        <p>
-            Hosted the static website securely using Amazon S3 Static Website
-            Hosting.
-        </p>
+    <div class="features">
+
+        <div class="box">
+            <h3>☁ AWS S3</h3>
+            <p>Static Website Hosting</p>
+        </div>
+
+        <div class="box">
+            <h3>⚙ GitHub Actions</h3>
+            <p>CI/CD Automation</p>
+        </div>
+
+        <div class="box">
+            <h3>🔐 IAM</h3>
+            <p>Secure AWS Authentication</p>
+        </div>
+
+        <div class="box">
+            <h3>💻 Amazon EC2</h3>
+            <p>Website Development Environment</p>
+        </div>
+
     </div>
 
-    <div class="card">
-        <h3>GitHub Actions</h3>
-        <p>
-            Automated deployment with GitHub Actions CI/CD pipeline after every
-            push to the main branch.
-        </p>
-    </div>
+    <a href="https://aws.amazon.com/" target="_blank">
+        <button>Learn AWS</button>
+    </a>
 
-</section>
-
-<section class="workflow">
-
-<h2>Project Workflow</h2>
-
-<div class="flow">
-GitHub ➜ GitHub Actions ➜ AWS IAM ➜ Amazon S3 ➜ Live Website
 </div>
-
-</section>
-
-<footer>
-
-<p>Built using HTML, CSS, GitHub Actions, Amazon EC2, Amazon S3 & AWS CLI</p>
-
-</footer>
 
 </body>
 </html>
